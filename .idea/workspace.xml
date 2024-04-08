@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bb97c58-7e09-4e24-bc0b-e6dae23d222a" name="Changes" comment="update workspace.xml">
+    <list default="true" id="5bb97c58-7e09-4e24-bc0b-e6dae23d222a" name="Changes" comment="add linked list realisation">
       <change afterPath="$PROJECT_DIR$/src/main/java/homework1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework1/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/PuttingIntoPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/Trader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +33,12 @@
     &quot;assignee&quot;: &quot;fatalcr-git&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/fatalcr-git/JavaCourse.git&quot;,
-    &quot;accountId&quot;: &quot;1d8288e1-a719-4917-94c5-d46b6cccca3f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/fatalcr-git/JavaCourse.git",
+    "accountId": "bc10c150-0042-44d0-b335-d4d385d2f0c4"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -67,13 +69,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PuttingIntoPractice">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework1.Main" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PuttingIntoPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework2.PuttingIntoPractice" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PuttingIntoPractice" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -116,7 +132,7 @@
       <updated>1712082551197</updated>
       <workItem from="1712398101498" duration="33000" />
       <workItem from="1712398143476" duration="2341000" />
-      <workItem from="1712566665847" duration="2632000" />
+      <workItem from="1712566665847" duration="5099000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -134,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712083047539</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add linked list realisation">
+      <option name="closed" value="true" />
+      <created>1712569362583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712569362583</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +178,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
+    <MESSAGE value="add linked list realisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add linked list realisation" />
   </component>
 </project>
